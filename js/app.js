@@ -3,10 +3,11 @@ $('#splash-js').delay(2500).fadeOut('slow');
 
 // Obteniendo información
 var container = $('.row');
+var modal = $('.modal');
 // Función que muestra todos los restaurantes
 function allFood() {
   for (i = 0; i < data.length; i++) {
-    container.append('<div class="col-xs-5 col-md-2 box-restaurant collection"><p class="name-restaurant">' + data[i].name + '</p><img class="img-restaurant"  src=' + data[i].image + '><div class="opacity"></div> </div>');
+    container.append('<div class="col-xs-5 col-md-2 box-restaurant collection" ><p class="name-restaurant">' + data[i].name + '</p><img class="img-restaurant"  src=' + data[i].image + '><div class="opacity"></div> </div>');
   }
 }
 // Ejecutando la función al iniciar
@@ -59,6 +60,7 @@ function create(food) {
     }
   }
   for (k = 0; k < type.length; k++) {
-    container.append('<div class="col-xs-5 col-md-2 box-restaurant collection"><p class="name-restaurant">' + type[k].name + '</p><img class="img-restaurant"  src=' + type[k].image + '><div class="opacity"></div> </div>');
+    container.append('<div class="col-xs-5 col-md-2 box-restaurant collection" ><p class="name-restaurant">' + type[k].name + '</p><img class="img-restaurant"  src=' + type[k].image + '><div class="opacity"></div> </div>');
   }
 }
+
