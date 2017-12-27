@@ -53,6 +53,14 @@ body {
 
 .input-group {
   padding: 1em;
+  max-width: 500px;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+.select-control{
+  width: 250px;
+  margin: 0 10px;
 }
 
 .glyphicon {
