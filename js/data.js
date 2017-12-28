@@ -7,7 +7,8 @@ var data = [{
   'address': 'Miraflores',
   'description': 'Av. Larco 5634',
   'money': '$',
-  'image': 'assets/images/carne.jpg'
+  'image': 'assets/images/carne.jpg',
+  'logo': 'assets/images/vacaloca.jpg'
 
 },
 {
@@ -17,7 +18,8 @@ var data = [{
   'address': 'Miraflores',
   'description': 'Larcomar 1234',
   'money': '$$$',
-  'image': 'assets/images/fusion1.jpg'
+  'image': 'assets/images/fusion1.jpg',
+  'logo': 'assets/images/mangos.jpg'
 
 },
 {
@@ -27,7 +29,8 @@ var data = [{
   'address': 'Miraflores',
   'description': 'La Paz 593',
   'money': '$$$',
-  'image': 'assets/images/fish.jpg'
+  'image': 'assets/images/fish.jpg',
+  'logo': 'assets/images/puntasal.jpg'
 
 },
 {
@@ -37,7 +40,8 @@ var data = [{
   'address': 'Miraflores',
   'description': 'San Martin 305',
   'money': '$$$',
-  'image': 'assets/images/fish2.jpg'
+  'image': 'assets/images/fish2.jpg',
+  'logo': 'assets/images/puntoazul.jpg'
 
 },
 {
@@ -47,7 +51,8 @@ var data = [{
   'address': 'Miraflores',
   'description': 'Av. Porta 408',
   'money': '$$',
-  'image': 'assets/images/japon.jpg'
+  'image': 'assets/images/japon.jpg',
+  'logo': 'assets/images/sushipop.jpg'
 },
 {
   'name': 'barra mar',
@@ -56,7 +61,8 @@ var data = [{
   'address': 'Barranco',
   'description': 'Grau  1234',
   'money': '$$$',
-  'image': 'assets/images/fish.jpg'
+  'image': 'assets/images/fish3.jpg',
+  'logo': 'assets/images/barramar.jpg'
 },
 {
   'name': 'cala',
@@ -65,7 +71,8 @@ var data = [{
   'address': 'Barranco',
   'description': 'Malecon Balta 784',
   'money': '$$',
-  'image': 'assets/images/fusion1.jpg'
+  'image': 'assets/images/fusion1.jpg',
+  'logo': 'assets/images/cala.jpeg'
 },
 {
   'name': 'la cuadra de salvador',
@@ -74,7 +81,8 @@ var data = [{
   'address': 'Barranco',
   'description': 'La Encantada 233',
   'money': '$$$',
-  'image': 'assets/images/carne.jpg'
+  'image': 'assets/images/carne.jpg',
+  'logo': 'assets/images/salvador.jpg'
 },
 {
   'name': 'shen',
@@ -83,7 +91,8 @@ var data = [{
   'address': 'Barranco',
   'description': 'Miguel Iglesias 987',
   'money': '$$$',
-  'image': 'assets/images/japon2.jpg'
+  'image': 'assets/images/japon2.jpg',
+  'logo': 'assets/images/shen.jpg'
 },
 {
   'name': 'barra lima',
@@ -92,7 +101,8 @@ var data = [{
   'address': 'San Isidro',
   'description': 'Av. General Pezet 734',
   'money': '$$$',
-  'image': 'assets/images/fish2.jpg'
+  'image': 'assets/images/fish4.jpg',
+  'logo': 'assets/images/barralima.jpg'
 },
 {
   'name': 'dondoh robata grill',
@@ -101,7 +111,8 @@ var data = [{
   'address': 'San Isidro',
   'description': 'Av. Salaverry 1934',
   'money': '$$',
-  'image': 'assets/images/carne.jpg'
+  'image': 'assets/images/carne.jpg',
+  'logo': 'assets/images/don.jpg'
 },
 {
   'name': 'nanka',
@@ -110,7 +121,8 @@ var data = [{
   'address': 'San Isidro',
   'description': 'Av. Javier Prado 1196',
   'money': '$$',
-  'image': 'assets/images/fusion2.jpg'
+  'image': 'assets/images/fusion2.jpg',
+  'logo': 'assets/images/nanka.jpg'
 }
 
 ];

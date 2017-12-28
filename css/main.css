@@ -84,7 +84,7 @@ body {
   text-transform: capitalize;
 }
 
-.box-restaurant {
+.box-restaurant,.box-restaurant-filter {
   height: 10em;
   background-size: cover;
   position: relative;
@@ -109,6 +109,38 @@ body {
   
 }
 
+/*Estilos modal*/
+.modal-content{
+  padding: 1em;
+  
+  
+}
+
+.logo-restaurant{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.info-address , .info-price{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+
+.buy-button{
+  text-align: center;
+}
+
+.buy-button button{
+background-color: var(--orange);
+}
+
+.subtitle-modal{
+  font-weight: 900;
+  font-size: 14px;
+}
 
 /*Loader spinner*/
 
