@@ -45,7 +45,7 @@ body {
   margin-top: 10px;
 }
 
-.map {
+#map {
   width: 100%;
   height: 30vh;
   outline: 1px solid red;
@@ -58,10 +58,6 @@ body {
   margin: 0 auto;
 }
 
-.select-control{
-  width: 250px;
-  margin: 0 auto;
-}
 
 .glyphicon {
   top: 0;
@@ -84,7 +80,7 @@ body {
   text-transform: capitalize;
 }
 
-.box-restaurant,.box-restaurant-filter {
+.box-restaurant,.box {
   height: 10em;
   background-size: cover;
   position: relative;
@@ -112,34 +108,55 @@ body {
 /*Estilos modal*/
 .modal-content{
   padding: 1em;
-  
-  
+}
+.modal-header{
+  border-bottom: none;
+}
+
+.modal-footer{
+  border-top: none;
+  text-align: center;
 }
 
 .logo-restaurant{
   width: 50%;
-  height: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 1em auto;
+}
+
+.local-restaurant{
+  width: 100%;
+  margin-bottom: 2em;
+  border-radius: 5px;
 }
 
 .info-address , .info-price{
   display: inline-block;
   width: 49%;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .buy-button{
   text-align: center;
+  margin: 10px 0;
 }
 
-.buy-button button{
-background-color: var(--orange);
-}
+
 
 .subtitle-modal{
   font-weight: 900;
   font-size: 14px;
+}
+
+.info-address span, .info-price span {
+  
+  font-size: 30px;
+  color: var(--orange);
+}
+
+.result{
+  margin-bottom: 40px;
 }
 
 /*Loader spinner*/
