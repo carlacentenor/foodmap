@@ -35,8 +35,17 @@ body {
   margin-top: .3em;
 }
 
+.title::after,.title::before {
+  content: '';
+  width: 7%;
+  height: 5px;
+  background-color: var(--orange);
+  display: inline-block;
+}
+
 .subtitle {
   font-size: 30px;
+  margin: 20px 0 7px;
 }
 
 .line {
@@ -48,7 +57,7 @@ body {
 #map {
   width: 100%;
   height: 30vh;
-  outline: 1px solid red;
+  
 }
 
 .input-group {
@@ -105,6 +114,8 @@ body {
   
 }
 
+
+
 /*Estilos modal*/
 .modal-content{
   padding: 1em;
@@ -157,6 +168,21 @@ body {
 
 .result{
   margin-bottom: 40px;
+}
+
+.result .icon-star{
+  font-size: 18px;
+  color: #f8ab03;
+}
+
+
+.white{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
 }
 
 /*Loader spinner*/
