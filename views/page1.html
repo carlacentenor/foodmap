@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Foodmap</title>
+</head>
+
+<body class="view-principal">
+
+  <header>
+    <img src="../assets/images/ubicacion2.png" alt="">
+    <p class="title">
+      < Foodmap>
+    </p>
+
+
+  </header>
+  <hr>
+
+
+  <section class="container">
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62405.8973802005!2d-76.99633173834023!3d-12.155290474057907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurantes+peruanos!5e0!3m2!1ses!2spe!4v1514844455177"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+  </section>
+  <section>
+    <div class="box-subtitle">
+      <img class="align" src="../assets/images/orden.png" alt="">
+      <h2 class="subtitle align">Comida cerca de ti > </h2>
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-addon glyphicon glyphicon-search"></span>
+      <input type="text" class="form-control search" id="inputGroupSuccess4" aria-describedby="inputGroupSuccess4Status" placeholder="Ingresa distrito , tipo de comida o nombre">
+    </div>
+
+
+    <div class="container">
+      <div class="row box-content">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+        </div>
+        <div class="modal-body">
+
+          <img class="logo-restaurant" alt="logo">
+          <img class="local-restaurant" alt="logo">
+          <div class="info-address">
+            <span class="glyphicon glyphicon-home"></span>
+            <p class="subtitle-modal"> Dirección</p>
+            <p class="address-restaurant result"></p>
+            <span class="glyphicon glyphicon-flag"></span>
+            <p class="subtitle-modal ">Distrito</p>
+            <p class="city-restaurant result"></p>
+          </div>
+          <div class="info-price">
+            <span class="glyphicon glyphicon-star-empty"></span>
+            <p class="subtitle-modal">Popularidad</p>
+            <p class="star-restaurant result"></p>
+            <span class="stars"></span>
+            <span class="glyphicon glyphicon-piggy-bank"></span>
+            <p class="subtitle-modal">Rango de Precios</p>
+            <p class="price-restaurant result"></p>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-lg btn-block btn-warning">Pedir Ahora</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="../js/geo.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/page1.js"></script>
+</body>
+
+</html>

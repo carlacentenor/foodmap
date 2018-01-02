@@ -9,43 +9,52 @@ body {
   background-color: #252525;
 }
 
+
+
+
 .splash {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
-  background-color: #252525;
-  z-index: 9;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
+}
+
+.img-splash{
+  text-align: center;
 }
 
 .splash-title {
   color: var(--orange);
-  margin: 6.5em auto 1em auto;
+  
   font-size: 40px;
   text-align: center;
 }
+
+/*Page 1*/
 
 .title,
 .subtitle {
   color: var(--orange);
   font-size: 40px;
   text-align: center;
-  margin-top: .3em;
+
 }
 
-.title::after,.title::before {
-  content: '';
-  width: 7%;
-  height: 5px;
-  background-color: var(--orange);
-  display: inline-block;
+.view-principal{
+  background-color: black;
+}
+
+header{
+  text-align: center;
+  margin-top: 1em;
 }
 
 .subtitle {
-  font-size: 30px;
-  margin: 20px 0 7px;
+  font-size: 25px;
+ 
 }
 
 .line {
@@ -54,9 +63,9 @@ body {
   margin-top: 10px;
 }
 
-#map {
+iframe {
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   
 }
 
@@ -67,6 +76,9 @@ body {
   margin: 0 auto;
 }
 
+.box-content{
+  padding-bottom: 1em;
+}
 
 .glyphicon {
   top: 0;
@@ -110,12 +122,23 @@ body {
   height: 100%;
   position: absolute;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   
 }
 
+.box-subtitle{
+  text-align: center;
+  margin: 1em 0;
+}
 
+.align{
+  display: inline-block;
+}
 
+hr{
+  border: 1px solid var(--orange);
+  width: 90%;
+}
 /*Estilos modal*/
 .modal-content{
   padding: 1em;
@@ -183,7 +206,16 @@ body {
   top: 100px;
   background: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
+  padding: 1em;
 }
+
+/**Desktop*/
+.bg-desktop{
+  background-image: url('../assets/images/fondo1.jpg');
+  background-size: cover;
+  height: 80vh;
+}
+
 
 /*Loader spinner*/
 

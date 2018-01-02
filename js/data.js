@@ -7,9 +7,9 @@ var data = [{
   'address': 'miraflores',
   'description': 'Av. Larco 5634',
   'money': '$',
-  'image': 'assets/images/carne.jpg',
-  'logo': 'assets/images/vacaloca.jpg',
-  'local': 'assets/images/localvaca.jpg'
+  'image': '../assets/images/carne.jpg',
+  'logo': '../assets/images/vacaloca.jpg',
+  'local': '../assets/images/localvaca.jpg'
 
 },
 {
@@ -19,9 +19,9 @@ var data = [{
   'address': 'miraflores',
   'description': 'Larcomar 1234',
   'money': '$$$',
-  'image': 'assets/images/fusion1.jpg',
-  'logo': 'assets/images/mangos.jpg',
-  'local': 'assets/images/mangoslocal.jpg'
+  'image': '../assets/images/fusion1.jpg',
+  'logo': '../assets/images/mangos.jpg',
+  'local': '../assets/images/mangoslocal.jpg'
 
 },
 {
@@ -31,9 +31,9 @@ var data = [{
   'address': 'miraflores',
   'description': 'La Paz 593',
   'money': '$$$',
-  'image': 'assets/images/fish.jpg',
-  'logo': 'assets/images/puntasal.jpg',
-  'local': 'assets/images/puntasallocal.jpg'
+  'image': '../assets/images/fish.jpg',
+  'logo': '../assets/images/puntasal.jpg',
+  'local': '../assets/images/puntasallocal.jpg'
 
 },
 {
@@ -43,9 +43,9 @@ var data = [{
   'address': 'miraflores',
   'description': 'San Martin 305',
   'money': '$$$',
-  'image': 'assets/images/fish2.jpg',
-  'logo': 'assets/images/puntoazul.jpg',
-  'local': 'assets/images/puntoazullocal.jpg'
+  'image': '../assets/images/fish2.jpg',
+  'logo': '../assets/images/puntoazul.jpg',
+  'local': '../assets/images/puntoazullocal.jpg'
 
 },
 {
@@ -55,9 +55,9 @@ var data = [{
   'address': 'miraflores',
   'description': 'Av. Porta 408',
   'money': '$$',
-  'image': 'assets/images/japon.jpg',
-  'logo': 'assets/images/sushipop.jpeg',
-  'local': 'assets/images/sushilocal.jpg'
+  'image': '../assets/images/japon.jpg',
+  'logo': '../assets/images/sushipop.jpeg',
+  'local': '../assets/images/sushilocal.jpg'
 
 },
 {
@@ -67,9 +67,9 @@ var data = [{
   'address': 'barranco',
   'description': 'Grau  1234',
   'money': '$$$',
-  'image': 'assets/images/fish3.jpg',
-  'logo': 'assets/images/barramar.jpg',
-  'local': 'assets/images/barramarlocal.jpg'
+  'image': '../assets/images/fish3.jpg',
+  'logo': '../assets/images/barramar.jpg',
+  'local': '../assets/images/barramarlocal.jpg'
 },
 {
   'name': 'cala',
@@ -78,9 +78,9 @@ var data = [{
   'address': 'barranco',
   'description': 'Malecon Balta 784',
   'money': '$$',
-  'image': 'assets/images/fusion1.jpg',
-  'logo': 'assets/images/cala.jpeg',
-  'local': 'assets/images/calalocal.jpg'
+  'image': '../assets/images/fusion1.jpg',
+  'logo': '../assets/images/cala.jpeg',
+  'local': '../assets/images/calalocal.jpg'
 },
 {
   'name': 'la cuadra de salvador',
@@ -89,9 +89,9 @@ var data = [{
   'address': 'barranco',
   'description': 'La Encantada 233',
   'money': '$$$',
-  'image': 'assets/images/carne.jpg',
-  'logo': 'assets/images/salvador.jpg',
-  'local': 'assets/images/salvadorlocal.jpg'
+  'image': '../assets/images/carne.jpg',
+  'logo': '../assets/images/salvador.jpg',
+  'local': '../assets/images/salvadorlocal.jpg'
 },
 {
   'name': 'shen',
@@ -100,9 +100,9 @@ var data = [{
   'address': 'barranco',
   'description': 'Miguel Iglesias 987',
   'money': '$$$',
-  'image': 'assets/images/japon2.jpg',
-  'logo': 'assets/images/shen.jpg',
-  'local': 'assets/images/shenlocal.jpg'
+  'image': '../assets/images/japon2.jpg',
+  'logo': '../assets/images/shen.jpg',
+  'local': '../assets/images/shenlocal.jpg'
 },
 {
   'name': 'barra lima',
@@ -111,9 +111,9 @@ var data = [{
   'address': 'san isidro',
   'description': 'Av. General Pezet 734',
   'money': '$$$',
-  'image': 'assets/images/fish4.jpg',
-  'logo': 'assets/images/barralima.jpg',
-  'local': 'assets/images/barralimalocal.jpg'
+  'image': '../assets/images/fish4.jpg',
+  'logo': '../assets/images/barralima.jpg',
+  'local': '../assets/images/barralimalocal.jpg'
 },
 {
   'name': 'dondoh robata grill',
@@ -122,9 +122,9 @@ var data = [{
   'address': 'san isidro',
   'description': 'Av. Salaverry 1934',
   'money': '$$',
-  'image': 'assets/images/carne.jpg',
-  'logo': 'assets/images/don.jpg',
-  'local': 'assets/images/donlocal.jpg'
+  'image': '../assets/images/carne.jpg',
+  'logo': '../assets/images/don.jpg',
+  'local': '../assets/images/donlocal.jpg'
 },
 {
   'name': 'nanka',
@@ -133,9 +133,9 @@ var data = [{
   'address': 'san isidro',
   'description': 'Av. Javier Prado 1196',
   'money': '$$',
-  'image': 'assets/images/fusion2.jpg',
-  'logo': 'assets/images/nanka.jpg',
-  'local': 'assets/images/nankalocal.jpg'
+  'image': '../assets/images/fusion2.jpg',
+  'logo': '../assets/images/nanka.jpg',
+  'local': '../assets/images/nankalocal.jpg'
 }
 
 ];
