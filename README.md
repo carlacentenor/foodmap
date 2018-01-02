@@ -1,4 +1,4 @@
-# Reto FOODMAP- MOBILE
+# Reto FOODMAP - MOBILE
 ---
 ## Objetivo
 
