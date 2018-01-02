@@ -9,9 +9,6 @@ body {
   background-color: #252525;
 }
 
-
-
-
 .splash {
   height: 100vh;
   background-color: black;
@@ -22,16 +19,16 @@ body {
   align-items: center;
 }
 
-.img-splash{
+.img-splash {
   text-align: center;
 }
 
 .splash-title {
   color: var(--orange);
-  
   font-size: 40px;
   text-align: center;
 }
+
 
 /*Page 1*/
 
@@ -40,21 +37,19 @@ body {
   color: var(--orange);
   font-size: 40px;
   text-align: center;
-
 }
 
-.view-principal{
+.view-principal {
   background-color: black;
 }
 
-header{
+header {
   text-align: center;
   margin-top: 1em;
 }
 
 .subtitle {
   font-size: 25px;
- 
 }
 
 .line {
@@ -66,7 +61,6 @@ header{
 iframe {
   width: 100%;
   height: 35vh;
-  
 }
 
 .input-group {
@@ -76,7 +70,7 @@ iframe {
   margin: 0 auto;
 }
 
-.box-content{
+.box-content {
   padding-bottom: 1em;
 }
 
@@ -101,7 +95,8 @@ iframe {
   text-transform: capitalize;
 }
 
-.box-restaurant,.box {
+.box-restaurant,
+.box {
   height: 10em;
   background-size: cover;
   position: relative;
@@ -123,83 +118,84 @@ iframe {
   position: absolute;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.3);
-  
 }
 
-.box-subtitle{
+.box-subtitle {
   text-align: center;
   margin: 1em 0;
 }
 
-.align{
+.align {
   display: inline-block;
 }
 
-hr{
+hr {
   border: 1px solid var(--orange);
   width: 90%;
 }
+
+
 /*Estilos modal*/
-.modal-content{
+
+.modal-content {
   padding: 1em;
 }
-.modal-header{
+
+.modal-header {
   border-bottom: none;
 }
 
-.modal-footer{
+.modal-footer {
   border-top: none;
   text-align: center;
 }
 
-.logo-restaurant{
+.logo-restaurant {
   width: 50%;
   display: block;
   margin: 1em auto;
 }
 
-.local-restaurant{
+.local-restaurant {
   width: 100%;
   margin-bottom: 2em;
   border-radius: 5px;
 }
 
-.info-address , .info-price{
+.info-address,
+.info-price {
   display: inline-block;
   width: 49%;
   text-align: center;
   text-transform: capitalize;
 }
 
-.buy-button{
+.buy-button {
   text-align: center;
   margin: 10px 0;
 }
 
-
-
-.subtitle-modal{
+.subtitle-modal {
   font-weight: 900;
   font-size: 14px;
 }
 
-.info-address span, .info-price span {
-  
+.info-address span,
+.info-price span {
   font-size: 30px;
   color: var(--orange);
 }
 
-.result{
+.result {
   margin-bottom: 40px;
 }
 
-.result .icon-star{
+.result .icon-star {
   font-size: 18px;
   color: #f8ab03;
 }
 
-
-.white{
+.white {
   color: white;
   text-align: center;
   position: relative;
@@ -209,8 +205,13 @@ hr{
   padding: 1em;
 }
 
+.modal-header{
+  padding: 0;
+}
+
 /**Desktop*/
-.bg-desktop{
+
+.bg-desktop {
   background-image: url('../assets/images/fondo1.jpg');
   background-size: cover;
   height: 80vh;
