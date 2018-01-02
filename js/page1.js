@@ -5,7 +5,7 @@ $(document).ready(function() {
   // Función que muestra todos los restaurantes
   function allFood() {
     for (i = 0; i < data.length; i++) {
-      container.append('<div class="col-xs-5 col-md-2 box-restaurant collection" data-name="' + data[i].name + '" data-type="' + data[i].type + '" data-city="' + data[i].address + '" data-toggle="modal" data-target="#myModal" ><p class="name-restaurant">' + data[i].name + '</p><p class="popular"></p><img class="img-restaurant"  src=' + data[i].image + '><div class="opacity"></div> </div>');
+      container.append('<div class="col-xs-5 col-md-2 box-restaurant collection" data-name="' + data[i].name + '" data-type="' + data[i].type + '" data-city="' + data[i].address + '" data-toggle="modal" data-target="#myModal" ><p class="name-restaurant">' + data[i].name + '</p><img class="img-restaurant"  src=' + data[i].image + '><div class="opacity"></div> </div>');
     }
   }
   // Ejecutando la función al iniciar

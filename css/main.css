@@ -92,6 +92,7 @@ iframe {
   position: absolute;
   z-index: 3;
   text-transform: capitalize;
+  padding: 1em;
 }
 
 .box-restaurant,
@@ -201,7 +202,7 @@ hr {
   top: 100px;
   background: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
-  padding: 1em;
+  
 }
 
 .modal-header {
